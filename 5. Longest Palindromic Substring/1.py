@@ -1,3 +1,8 @@
+'''
+Runtime: 2904 ms, faster than 32.40% of Python3 online submissions for Longest Palindromic Substring.
+Memory Usage: 14.3 MB, less than 81.68% of Python3 online submissions for Longest Palindromic
+'''
+
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         if len(s) == 1:

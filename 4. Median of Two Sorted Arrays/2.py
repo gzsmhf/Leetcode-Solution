@@ -1,3 +1,8 @@
+'''
+Runtime: 126 ms, faster than 14.43% of Python3 online submissions for Median of Two Sorted Arrays.
+Memory Usage: 14.4 MB, less than 93.69% of Python3 online submissions for Median of Two Sorted Arrays.
+'''
+
 class Solution:
     def findMedianSortedArrays(self, nums1, nums2) -> float:
         nums1.extend(nums2)

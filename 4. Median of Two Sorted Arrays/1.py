@@ -1,3 +1,8 @@
+'''
+Runtime: 141 ms, faster than 11.09% of Python3 online submissions for Median of Two Sorted Arrays.
+Memory Usage: 14.3 MB, less than 99.16% of Python3 online submissions for Median of Two Sorted Arrays.
+'''
+
 import bisect
 
 class Solution:
