@@ -5,6 +5,7 @@ Memory Usage: 14.3 MB, less than 99.16% of Python3 online submissions for Median
 
 import bisect
 
+#遍历nums2的值，用python的二分库获取其在nums1中插入的位置，然后插入
 class Solution:
     def findMedianSortedArrays(self, nums1, nums2) -> float:
         for n in nums2:

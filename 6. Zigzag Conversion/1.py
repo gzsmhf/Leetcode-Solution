@@ -3,6 +3,7 @@ Runtime: 67 ms, faster than 44.62% of Python3 online submissions for Zigzag Conv
 Memory Usage: 14.1 MB, less than 99.51% of Python3 online submissions for Zigzag Conversion.
 '''
 
+#找到zigzag的通项公式直接拼接
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         ls = len(s)

@@ -3,9 +3,9 @@ Runtime: 48 ms, faster than 95.59% of Python3 online submissions for Palindrome 
 Memory Usage: 14.1 MB, less than 92.52% of Python3 online submissions for Palindrome Number.
 '''
 
-
 import math
 
+#把数字当成字符串验证
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0:

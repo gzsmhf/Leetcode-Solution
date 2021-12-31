@@ -5,6 +5,7 @@ Memory Usage: 14.1 MB, less than 94.52% of Python3 online submissions for String
 
 import re
 
+#利用正则表达式标准库提取数字部分再转换
 class Solution:
     def myAtoi(self, s: str) -> int:
         r = re.search(r'^(\s*)-?\+?[0-9]+', s)
